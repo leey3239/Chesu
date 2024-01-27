@@ -1,11 +1,11 @@
 ﻿using System;
+
+public class Knight : Piece
 {
-    public class Knight : Piece
+    public Knight(bool colour) : base(colour)
     {
-        public Knight(bool colour)
-        {
-            : base(colour);
-        }
+
     }
 }
+
 

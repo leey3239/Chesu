@@ -1,5 +1,4 @@
 ﻿using System;
-using static Piece;
 public class Cell
 {
     private Piece _piece;
@@ -9,6 +8,12 @@ public class Cell
     {
         _cords = cords;
         _piece = piece;
+    }
+
+    public Cell(Tuple<int, int> cords)
+    {
+        _cords = cords;
+        _piece = null;
     }
 
     public Piece GetPiece()
